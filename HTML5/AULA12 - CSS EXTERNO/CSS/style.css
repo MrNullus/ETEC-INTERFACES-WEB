@@ -1,0 +1,135 @@
+/* ARQUIVO CSS QUE SERÁ USADO NAS PÁGINAS */
+
+body{
+	/* COR DE FUNDO */
+	background-color: #FFC;
+	/* OPÇÕES DE FONTES */
+	font-family: Arial, Verdana, Tahoma, Sans-serif;
+	/* Cor da fonte */
+	color: #333;
+	/* TAMANHO DA FONTE */
+	font-size: 12px;
+}
+
+p{
+	/* ESPAÇO ENTRE LINHAS */	
+	line-height: 20px;
+	/* ALINHAMENTO DO TEXTO */
+	text-align: justify;
+}
+
+h1{
+	font-size: 24px;
+	color: #000;
+	/* SEREV PARA TRANSFORMAR TEXTO */
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 24px;
+	/* ESÁÇO INTERNO - SERIA UMA MARGEM INTERNA DOS ELEMENTOS */
+	padding: 5px;
+	color: #4c4c4c;
+}
+
+/* FORMATAR OS LINKS */
+ul{
+	padding: 3px;
+	line-height: 38px;
+	text-align: left;
+	/* SERVE PARA TIRAR OS MARCADORES */
+	list-style: none;
+}
+
+li{
+	/* TORNA O ELEMENTO INLINE, OU SEJA EM LINHA */
+	display: inline;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+a{
+	font-family: "Arial Black", "Gadget", Sans-serif;
+	color: #000;
+	font-size: 16px;
+	/* TIRAR A LINHA DO LINK {UNDERLINE} - "none" RESETA OS VALORES */
+	text-decoration: none;
+}
+
+a:hover{
+	font-family: Verdana ,Arial, Helvetica, Sans-serif;
+	color: #666;
+	font-size: 18px;
+	text-decoration: underline;
+	/* ESPESSURA DA LINHA DO TEXTO */
+	font-weight: bold;
+	background-color: #FFC;
+	padding: 10px
+	/* ARREDONDAMENTO DAS BORDAS */
+	border-radius: 25px;
+	/* SOMBRA */
+	box-shadow: 0px 4px 20px white;
+	/* TRANSIÇÃO */
+	transition: 0.9s;
+}
+
+iframe{
+	width: 622px;	
+	height: 510px;
+	background-color: #ccc;
+}
+
+/* Configuração de classes */
+.laterais{
+	font-size: xx-large;
+	color: #369;
+}
+
+#paginas{
+	background-color: #000;
+	width: 1024px;
+	height: 650px;
+	margin: 0 auto;
+	margin-top: -16px;
+}
+
+#topo{
+	width: 1024px;
+	height: 100px;
+	/* Imagem de Fundo da Div */
+	background-image: url(../imagens/banner.png);
+	box-shadow: 0 4px 20px red;
+}
+
+#cont_esq{
+	width: 200px;
+	height: 512px
+	background-color: #fc9;
+	/* Posicionar na esquerda */
+	float: left;
+	/* Arredondar as bordas */
+	border-radius: 25px;
+}
+
+#cont_central{
+	width: 824px;
+	height: 512px;
+	background-color: #fc9;	
+	border-radius: 25px;	
+}
+
+#cont_dir{
+	width: 200px;
+	height: 512px;
+	background-color: #090;
+	float: right;
+	margin-top: -520px;
+}
+
+#cont_1{
+	width: 200px;
+	height: 170px;
+	background-color: #fff;
+	background-image: url(../imagens/fundodiv.png);
+	background-repeat: repeat-x;
+}

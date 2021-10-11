@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>USO DE FONTES</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial scale=1"/>
+
+		<style type="text/css">
+			/*
+				#>> Para suar fontes baixdas localmente deve:
+					+> Criar uma pasta chamada: Fonts, 
+					+> em seguidacolcoar as fontes lá
+					+> usar o comando:>
+						@font-face{
+							src: url("pasta/Nme da Fonte.ttf");
+							// esse comando irá procurar a fonte
+							font-family: "Nome da Fonte";
+							// esse comando tornara a fonte usavel pelo CSS, tornara a fonte parte de uma 'familia'	.
+						}
+					+> depois é só colocar  a font ou fonts, com o nome que foi definido em 'font-family', exemplo:>
+						elemento{
+							font-family: "Nome da Fonte";
+						}
+						
+			*/
+			/*USAR A FONTE DA GOOGLE*/
+			@font-face{
+				font-family: "Product Sans Regular";
+				src: url("fonts/Product Sans Regular.ttf");
+			}
+
+
+			.gg{
+				font-family: "Product Sans Regular";
+				font-size: 120px;
+				color: #4285f4;
+			}
+
+			.oe{
+				font-family: "Product Sans Regular";
+				font-size: 120px;
+				color: #ea4335;	
+			}
+
+			#o{
+				font-family: "Product Sans Regular";
+				font-size: 120px;
+				color: #fbbc05;
+			}
+
+			#l{
+				font-family: "Product Sans Regular";
+				font-size: 120px;
+				color: #34a853;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<center>
+			<font class="gg">G</font>
+			<font class="oe">o</font>
+			<font id="o">o</font>
+			<font class="gg">g</font>
+			<font id="l">l</font>
+			<font class="oe">e</font>
+		</center>
+	</body>
+</html>
